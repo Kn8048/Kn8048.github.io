@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-05T09:41:21.776Z</updated>
+  <updated>2023-09-05T12:27:52.738Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,17 +17,24 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>黄先生的第二篇博客</title>
+    <title>SpringBoot</title>
     <link href="http://example.com/2023/09/05/%E9%BB%84%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/"/>
     <id>http://example.com/2023/09/05/%E9%BB%84%E5%85%88%E7%94%9F%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</id>
     <published>2023-09-05T09:40:36.000Z</published>
-    <updated>2023-09-05T09:41:21.776Z</updated>
+    <updated>2023-09-05T12:27:52.738Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="SpringBoot"><a href="#SpringBoot" class="headerlink" title="SpringBoot"></a>SpringBoot</h1><p>快速开发Web的框架，免除了SpringMvc的配置，但是SpringBoot版本迭代很快，人称版本帝</p><ul><li><p>SpringBoot的主程序类：</p><p>​      @SpringBootApplication注解标识的类</p></li><li><p>相关代码：</p><pre><code><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//主程序类</span></span><br><span class="line"><span class="meta">@SpringBootApplication</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">MainApplication</span> &#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        SpringApplication.run(MainApplication.class,args);</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></code></pre></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;SpringBoot&quot;&gt;&lt;a href=&quot;#SpringBoot&quot; class=&quot;headerlink&quot; title=&quot;SpringBoot&quot;&gt;&lt;/a&gt;SpringBoot&lt;/h1&gt;&lt;p&gt;快速开发Web的框架，免除了SpringMvc的配置，但是SpringBoo</summary>
+      
     
     
     
     
-    
-    <category term="今天学习了张宇的考研高等数学和王道考研的数据结构" scheme="http://example.com/tags/%E4%BB%8A%E5%A4%A9%E5%AD%A6%E4%B9%A0%E4%BA%86%E5%BC%A0%E5%AE%87%E7%9A%84%E8%80%83%E7%A0%94%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%92%8C%E7%8E%8B%E9%81%93%E8%80%83%E7%A0%94%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    <category term="SpringBoot的相关概述" scheme="http://example.com/tags/SpringBoot%E7%9A%84%E7%9B%B8%E5%85%B3%E6%A6%82%E8%BF%B0/"/>
     
   </entry>
   
