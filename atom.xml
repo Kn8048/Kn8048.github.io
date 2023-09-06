@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-06T02:24:55.685Z</updated>
+  <updated>2023-09-06T03:10:43.110Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,12 +18,36 @@
   
   <entry>
     <title>高等数学</title>
+    <link href="http://example.com/2023/09/06/2023-09-06-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/"/>
+    <id>http://example.com/2023/09/06/2023-09-06-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%E5%9F%BA%E6%9C%AC%E7%9F%A5%E8%AF%86/</id>
+    <published>2023-09-06T02:49:36.000Z</published>
+    <updated>2023-09-06T03:10:43.110Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="基本不等式"><a href="#基本不等式" class="headerlink" title="基本不等式"></a>基本不等式</h1><ul><li><script type="math/tex; mode=display">|a\pm{b}|\leq|a|+|b|,\sqrt{ab}\leq\frac{a+b}{2}\leq\sqrt{\frac{a^2+b^2}{2}}(a,b>0)</script></li></ul><ul><li><script type="math/tex; mode=display">\sqrt[3]{abc}\leq\frac{a+b+c}{3}\leq\sqrt{\frac{a^2+b^2+c^2}{3}}</script></li></ul><ul><li>如果0&lt;a&lt;x&lt;b,0&lt;c&lt;y&lt;d,则有<script type="math/tex; mode=display">\frac{c}{b}<\frac{y}{x}<\frac{d}{a}</script></li></ul><ul><li><script type="math/tex; mode=display">e^x\geq{x+1}</script></li></ul><h1 id="三角函数"><a href="#三角函数" class="headerlink" title="三角函数"></a>三角函数</h1><ul><li><script type="math/tex; mode=display">sin2a=2sinacosa</script></li></ul><ul><li><script type="math/tex; mode=display">cos2a=cos^2a-sin^2a=1-2sin^2a=2cos^2a-1</script></li></ul><h2 id="和差化积公式"><a href="#和差化积公式" class="headerlink" title="和差化积公式"></a>和差化积公式</h2><ul><li><script type="math/tex; mode=display">sina+sinb=2sin\frac{a+b}{2}cos\frac{a-b}{2}</script></li></ul><ul><li><script type="math/tex; mode=display">sina-sinb=2sin\frac{a-b}{2}cos\frac{a+b}{2}</script></li></ul><ul><li><script type="math/tex; mode=display">cosa+cosb=2cos\frac{a+b}{2}cos\frac{a-b}{2}</script></li></ul><ul><li><script type="math/tex; mode=display">cosa-cosb=-2sin\frac{a+b}{2}sin\frac{a-b}{2}</script></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;基本不等式&quot;&gt;&lt;a href=&quot;#基本不等式&quot; class=&quot;headerlink&quot; title=&quot;基本不等式&quot;&gt;&lt;/a&gt;基本不等式&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+|a&#92;pm{b}|&#92;leq</summary>
+      
+    
+    
+    
+    
+    <category term="数学的基础知识" scheme="http://example.com/tags/%E6%95%B0%E5%AD%A6%E7%9A%84%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>高等数学</title>
     <link href="http://example.com/2023/09/06/2023-09-06-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
     <id>http://example.com/2023/09/06/2023-09-06-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</id>
     <published>2023-09-06T01:10:36.000Z</published>
-    <updated>2023-09-06T02:24:55.685Z</updated>
+    <updated>2023-09-06T02:49:17.167Z</updated>
     
-    <content type="html"><![CDATA[<p>当x-&gt;0时，</p><script type="math/tex; mode=display">sinx\sim{x},tanx\sim{x},1-cosx\sim{-\frac{1}{2}x^2},\ln(1+x)\sim{x},(1+x)^\alpha\sim{\alpha\cdot x},\\</script><script type="math/tex; mode=display">e^x-1\sim{x},tanx-x\sim{\frac{1}{3}x^3},x-ln(1+x)\sim{\frac{1}{2}x^2},ln(x+\sqrt{1+x^2})\sim{x}</script><p>我们在做极限题目的时候可以先用等价无穷小来进行替换。</p><p>如果我们等价无穷小没办法解决，我们第二步可以采用泰勒展开式：</p><p>常用的泰勒展开式如下：</p><script type="math/tex; mode=display">sinx\sim{x-\frac{1}{3!}x^3+\frac{1}{5!}x^5-....}\\</script><script type="math/tex; mode=display">cosx\sim{1-\frac{1}{2!}x^2+\frac{1}{4}x^4-....}\\</script><script type="math/tex; mode=display">tanx\sim{x+\frac{1}{3}x^3+\frac{1}{15}x^5+....}\\</script><script type="math/tex; mode=display">e^x\sim{1+x+\frac{1}{2}x^2+....}\\</script><script type="math/tex; mode=display">ln(1+x)\sim{x-\frac{1}{2}x^2+\frac{1}{3}x^3-\frac{1}{4}x^4+....}\\</script><script type="math/tex; mode=display">\frac{1}{1+x}\sim{1-x+x^2-x^3+x^4-x^5+....}\\</script>]]></content>
+    <content type="html"><![CDATA[<p>当x-&gt;0时，</p><script type="math/tex; mode=display">sinx\sim{x},tanx\sim{x},1-cosx\sim{-\frac{1}{2}x^2},\ln(1+x)\sim{x},(1+x)^\alpha\sim{\alpha\cdot x},\\</script><script type="math/tex; mode=display">e^x-1\sim{x},tanx-x\sim{\frac{1}{3}x^3},x-ln(1+x)\sim{\frac{1}{2}x^2},ln(x+\sqrt{1+x^2})\sim{x}</script><p>我们在做极限题目的时候可以先用等价无穷小来进行替换。</p><p>如果我们等价无穷小没办法解决，我们第二步可以采用泰勒展开式：</p><p>常用的泰勒展开式如下：</p><script type="math/tex; mode=display">sinx\sim{x-\frac{1}{3!}x^3+\frac{1}{5!}x^5-....}\\</script><script type="math/tex; mode=display">cosx\sim{1-\frac{1}{2!}x^2+\frac{1}{4}x^4-....}\\</script><script type="math/tex; mode=display">tanx\sim{x+\frac{1}{3}x^3+\frac{1}{15}x^5+....}\\</script><script type="math/tex; mode=display">e^x\sim{1+x+\frac{1}{2}x^2+....}\\</script><script type="math/tex; mode=display">ln(1+x)\sim{x-\frac{1}{2}x^2+\frac{1}{3}x^3-\frac{1}{4}x^4+....}\\</script><script type="math/tex; mode=display">\frac{1}{1+x}\sim{1-x+x^2-x^3+x^4-x^5+....}\\</script><p>最后如果还是无法解决，我们只能请出我们的洛必达先生。但是他也不是万能的：</p><p>如果遇到</p><script type="math/tex; mode=display">\frac{∞}{∞}和\frac{0}{0}型，我们可以同时对上下各自求导，然后再查看是否还是\frac{∞}{∞}和\frac{0}{0}。</script><p>如果还是我们可以再次进行洛必达法则。</p>]]></content>
     
     
       
@@ -36,7 +60,7 @@ sinx&#92;sim{x},tanx&#92;sim{x},1-cosx&#92;sim{-&#92;frac{1}{2}x^2},&#92;ln(1+x)
     
     
     
-    <category term="等价无穷小的替换" scheme="http://example.com/tags/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E6%9B%BF%E6%8D%A2/"/>
+    <category term="函数极限的计算" scheme="http://example.com/tags/%E5%87%BD%E6%95%B0%E6%9E%81%E9%99%90%E7%9A%84%E8%AE%A1%E7%AE%97/"/>
     
   </entry>
   
