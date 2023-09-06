@@ -1,20 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>欢迎来到黄先生的博客</title>
   
   
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-05T12:27:52.738Z</updated>
+  <updated>2023-09-06T02:24:55.685Z</updated>
   <id>http://example.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>黄先生</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高等数学</title>
+    <link href="http://example.com/2023/09/06/2023-09-06-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/"/>
+    <id>http://example.com/2023/09/06/2023-09-06-%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/</id>
+    <published>2023-09-06T01:10:36.000Z</published>
+    <updated>2023-09-06T02:24:55.685Z</updated>
+    
+    <content type="html"><![CDATA[<p>当x-&gt;0时，</p><script type="math/tex; mode=display">sinx\sim{x},tanx\sim{x},1-cosx\sim{-\frac{1}{2}x^2},\ln(1+x)\sim{x},(1+x)^\alpha\sim{\alpha\cdot x},\\</script><script type="math/tex; mode=display">e^x-1\sim{x},tanx-x\sim{\frac{1}{3}x^3},x-ln(1+x)\sim{\frac{1}{2}x^2},ln(x+\sqrt{1+x^2})\sim{x}</script><p>我们在做极限题目的时候可以先用等价无穷小来进行替换。</p><p>如果我们等价无穷小没办法解决，我们第二步可以采用泰勒展开式：</p><p>常用的泰勒展开式如下：</p><script type="math/tex; mode=display">sinx\sim{x-\frac{1}{3!}x^3+\frac{1}{5!}x^5-....}\\</script><script type="math/tex; mode=display">cosx\sim{1-\frac{1}{2!}x^2+\frac{1}{4}x^4-....}\\</script><script type="math/tex; mode=display">tanx\sim{x+\frac{1}{3}x^3+\frac{1}{15}x^5+....}\\</script><script type="math/tex; mode=display">e^x\sim{1+x+\frac{1}{2}x^2+....}\\</script><script type="math/tex; mode=display">ln(1+x)\sim{x-\frac{1}{2}x^2+\frac{1}{3}x^3-\frac{1}{4}x^4+....}\\</script><script type="math/tex; mode=display">\frac{1}{1+x}\sim{1-x+x^2-x^3+x^4-x^5+....}\\</script>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;当x-&amp;gt;0时，&lt;/p&gt;
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+sinx&#92;sim{x},tanx&#92;sim{x},1-cosx&#92;sim{-&#92;frac{1}{2}x^2},&#92;ln(1+x)&#92;sim{x},(1+x)^&#92;alpha&#92;si</summary>
+      
+    
+    
+    
+    
+    <category term="等价无穷小的替换" scheme="http://example.com/tags/%E7%AD%89%E4%BB%B7%E6%97%A0%E7%A9%B7%E5%B0%8F%E7%9A%84%E6%9B%BF%E6%8D%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>SpringBoot</title>
