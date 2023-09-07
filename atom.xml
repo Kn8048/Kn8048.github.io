@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-06T03:10:43.110Z</updated>
+  <updated>2023-09-07T01:27:57.786Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于Java基础</title>
+    <link href="http://example.com/2023/09/07/%E5%85%B3%E4%BA%8EJava%E5%9F%BA%E7%A1%80/"/>
+    <id>http://example.com/2023/09/07/%E5%85%B3%E4%BA%8EJava%E5%9F%BA%E7%A1%80/</id>
+    <published>2023-09-07T01:10:12.616Z</published>
+    <updated>2023-09-07T01:27:57.786Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Java的特性面向对象"><a href="#Java的特性面向对象" class="headerlink" title="Java的特性面向对象"></a>Java的特性面向对象</h1><p>三大特性：封装，继承，多态。</p><p>Java的主要是单继承，多实现：</p><p>现在我们有一个父类Person类：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="type">int</span> id;</span><br><span class="line"><span class="comment">//用户姓名</span></span><br><span class="line"><span class="keyword">private</span> String name;</span><br><span class="line"><span class="comment">//用户年龄</span></span><br><span class="line"><span class="keyword">private</span> <span class="type">int</span> age;</span><br><span class="line"><span class="comment">//用户性别</span></span><br><span class="line"><span class="keyword">private</span> String gender;</span><br><span class="line"></span><br><span class="line"><span class="comment">//想要访问私有变量，必须使用Getter和Setter方法。</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setId</span><span class="params">(<span class="type">int</span> id)</span>&#123;</span><br><span class="line">    <span class="built_in">this</span>.id = id;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getId</span><span class="params">(<span class="type">int</span> id)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> id;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//其他属性的Getter和Setter方法可以类比上面的示例。</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">setName</span><span class="params">(String name)</span>&#123;</span><br><span class="line">    <span class="built_in">this</span>.name = name;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="type">int</span> <span class="title function_">getName</span><span class="params">(String name)</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> name;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>现在我们实例化这个对象：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">Person</span> <span class="variable">pwy</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Person</span>();</span><br><span class="line"><span class="comment">//给pwy的id赋值：</span></span><br><span class="line">pwy.id = <span class="number">1</span>;</span><br><span class="line">pwy.name = <span class="string">&quot;小潘&quot;</span>;</span><br><span class="line"><span class="comment">//现在这个对象名字叫小潘，id为1</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;Java的特性面向对象&quot;&gt;&lt;a href=&quot;#Java的特性面向对象&quot; class=&quot;headerlink&quot; title=&quot;Java的特性面向对象&quot;&gt;&lt;/a&gt;Java的特性面向对象&lt;/h1&gt;&lt;p&gt;三大特性：封装，继承，多态。&lt;/p&gt;
+&lt;p&gt;Java的主要是单继承，</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>高等数学</title>
