@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-09-07T03:02:10.134Z</updated>
+  <updated>2023-09-11T01:54:59.834Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>十大定理</title>
+    <link href="http://example.com/2023/09/11/%E5%8D%81%E5%A4%A7%E5%AE%9A%E7%90%86/"/>
+    <id>http://example.com/2023/09/11/%E5%8D%81%E5%A4%A7%E5%AE%9A%E7%90%86/</id>
+    <published>2023-09-11T01:54:59.834Z</published>
+    <updated>2023-09-11T01:54:59.834Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="有界最值定理"><a href="#有界最值定理" class="headerlink" title="有界最值定理"></a>有界最值定理</h2><script type="math/tex; mode=display">函数在闭区间[a,b]上连续，则有最小值m，最大值M，使得m\leq{f(x)}\leq{M}</script><h2 id="介值定理"><a href="#介值定理" class="headerlink" title="介值定理"></a>介值定理</h2><script type="math/tex; mode=display">函数在闭区间[a,b]上连续，m\leq{\mu}\leq{M},则存在一点ξ在[a,b]内，使得f(ξ)=\mu</script><h2 id="费马定理"><a href="#费马定理" class="headerlink" title="费马定理"></a>费马定理</h2><script type="math/tex; mode=display">函数f(x)在点X_{0}处满足</script><ul><li><p>可导</p></li><li><p>取极值</p><script type="math/tex; mode=display">则\dot{f(x)}=0</script></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;有界最值定理&quot;&gt;&lt;a href=&quot;#有界最值定理&quot; class=&quot;headerlink&quot; title=&quot;有界最值定理&quot;&gt;&lt;/a&gt;有界最值定理&lt;/h2&gt;&lt;script type=&quot;math/tex; mode=display&quot;&gt;
+函数在闭区间[a,b]上连续，则有最</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>高等数学的总结</title>
